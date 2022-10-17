@@ -1,0 +1,33 @@
+Questão 1
+
+Faça um programa para ler do teclado um número inteiro com três dígitos (no formato CDU -centena, dezena e unidade) e mostrar o número invertido (no formato UDC).
+
+c=num/100;
+
+d=(num%100)/10;
+
+u=num%10;
+
+numInv=u*100+d*10+c;
+
+ 
+
+Questão 2
+
+Faça um programa para ler os valores dos catetos de um triângulo retângulo e mostrar a hipotenusa 
+
+a = Math.Sqrt(Math.Pow(b,2) + Math.pow(c,2));
+
+![triangulo](img/triangulo.jpg)
+
+Questão 3
+
+Faça um programa para ler a base e a altura de um retângulo e mostrar seu perímetro, área e diagonal.
+
+perimetro=2*(base+altura);
+
+area=(base*altura);
+
+diagonal=Math.Sqrt(Mat.Pow(base,2) + Math.Pow(altura,2));
+
+![retangulo](img/retangulo.jpg)
